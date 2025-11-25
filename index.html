@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,15 @@
         <div class="game-info">
             <span id="timer">זמן: 2:00</span>
             <span id="moves">מהלכים: 0</span>
+            <div class="language-switcher">
+                <label for="lang-select" id="lang-label">שפה:</label>
+                <select id="lang-select">
+                    <option value="he">עברית</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="ko">한국어</option>
+                </select>
+            </div>
         </div>
         <div id="game-board" class="game-board"></div>
         <div id="start-prompt" class="game-result">
