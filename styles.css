@@ -6,8 +6,16 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  text-align: right;
+}
+
+html[dir="rtl"] body {
   direction: rtl;
+  text-align: right;
+}
+
+html[dir="ltr"] body {
+  direction: ltr;
+  text-align: left;
 }
 
 .game-container {
