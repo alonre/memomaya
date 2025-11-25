@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משחק זיכרון חיות</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>משחק זיכרון חיות</h1>
+        <div class="game-info">
+            <span id="timer">זמן: 2:00</span>
+            <span id="moves">מהלכים: 0</span>
+        </div>
+        <div id="game-board" class="game-board"></div>
+        <div id="start-prompt" class="game-result">
+            <h2>ברוכים הבאים למשחק זיכרון חיות!</h2>
+            <button id="start-btn">התחל</button>
+        </div>
+        <div id="game-result" class="game-result hidden">
+            <h2 id="result-message"></h2>
+            <button id="restart-btn">שחק שוב</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
